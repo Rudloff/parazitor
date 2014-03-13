@@ -1,0 +1,31 @@
+body {
+margin:0;
+overflow:hidden;
+text-align:center;
+}
+
+.game {
+background-color:gray;
+cursor:crosshair;
+}
+
+.game,
+.loading{
+display:none;
+}
+
+.debug {
+font-size:small;
+}
+
+noscript {
+display:block;
+}
+
+.playBtn{
+font-size:x-large;
+font-weight:bold;
+font-variant:small-caps;
+display:block;	
+margin:auto;
+}
