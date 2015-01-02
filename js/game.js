@@ -206,8 +206,8 @@ var init = function () {
         main = function () {
             var anim = function () {
                 var ratio;
-                if (window.mozRequestAnimationFrame) {
-                    window.mozRequestAnimationFrame(anim, canvas);
+                if (window.requestAnimationFrame) {
+                    window.requestAnimationFrame(anim, canvas);
                 } else {
                     window.setTimeout(anim, 41.6);
                 }
